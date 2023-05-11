@@ -27,7 +27,7 @@ const QAcontainer = styled.div`
   }
   .mainp {
     font-family: "Times New Roman", Times, serif;
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     border: solid red;
     border-radius: 5px;

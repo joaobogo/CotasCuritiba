@@ -25,7 +25,7 @@ const AboutContainer = styled.div`
 
   .main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     justify-content: center;
     align-items: center;
     gap: 20px;
