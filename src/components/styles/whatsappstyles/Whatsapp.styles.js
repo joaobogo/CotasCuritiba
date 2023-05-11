@@ -5,7 +5,7 @@ const WhatsappContainer = styled.div`
   position: fixed;
   right: 20px;
   top: 82vh;
-  z-index: 5;
+  z-index: 100;
 }
 
 .whatsappbtn .imgbutton {
