@@ -28,7 +28,7 @@ const AboutContainer = styled.div`
     justify-content: space-between;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
   }
 
   .right {
