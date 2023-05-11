@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Carousel from './components/Carousel';
+import Form from './components/Form';
+import Navbar from './components/Navbar';
+import QA from './components/QA';
+import Footer from './components/Footer'
+import Whatsapp from './components/Whatsapp';
+import About from './components/About';
+import Triangle from './components/Triangle';
+import Triangle2 from './components/Triangle2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Carousel/>
+      <Triangle/>
+      <Form/>
+      <Triangle2/>
+      <About/>
+      <QA/>
+      <Whatsapp/>
+      <Footer/>
     </div>
   );
 }
